@@ -1,0 +1,3 @@
+Automated Deployment of LAMP Stack with Vagrant and Ansible
+This project aims to automate the provisioning of two Ubuntu-based servers, named “Master” and “Slave”, using Vagrant. On the Master node, a bash script is created to automate the deployment of a LAMP (Linux, Apache, MySQL, PHP) stack. The script clones a PHP application from GitHub, installs all necessary packages, and configures Apache web server and MySQL. Additionally, an Ansible playbook is utilized to execute the bash script on the Slave node and verify that the PHP application is accessible through the VM’s IP address. A cron job is created to check the server’s uptime every 12 am.
+
